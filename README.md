@@ -39,6 +39,7 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 | 🟢 | **AWS EC2** (Ubuntu Server) deployed — SSH hardened, security groups configured |
 | 🟢 | **Wazuh SIEM** — centralized log collection, file integrity monitoring, custom detection rules |
 | 🟢 | **pfSense** virtual firewall — network segmentation, traffic filtering, access control |
+| 🟢 | **Cowrie honeypot** on AWS EC2 — 7 weeks internet-facing, ~427K events logged, custom Wazuh rules mapped to MITRE ATT&CK |
 | 🟡 | Simulated attack behavior — analyzed via custom alert rules |
 
 <br/>
@@ -51,12 +52,13 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=hunain-amin-770-PROJECT-MINI_OS&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="48%"/>
 </a>
 <a href="https://github.com/Hunain-Amin/Enterprise-IT-department-Network">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=Enterprise-IT-department-Network&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=Enterprise-IT-department-Network&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="48%"/> [![](https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=cowrie-wazuh-honeypot&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536)](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)
 </a>
 
 </div>
 
 - **Mini Operating System** — C++ OS simulator: process management, CPU scheduler, multithreaded sync, Banker's Algorithm for deadlock avoidance, Producer-Consumer via mutex/semaphores.
+- - **Cowrie + Wazuh Honeypot** — Internet-facing SSH honeypot on AWS EC2 feeding a home-lab Wazuh SIEM through a reverse SSH tunnel, with custom detection rules tagged with MITRE ATT&CK. ~427K events in 7 weeks, with 3 source IPs producing ~95% of traffic. [View repo](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)
 - **Enterprise IT Department Network** — Cisco Packet Tracer sim: 6+ VLANs, OSPF/RIP routing, ACLs, port security, DHCP.
 
 <br/>
