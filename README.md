@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e111a,50:16213e,100:ff2fb0&height=200&section=header&text=Hunain%20Amin&fontSize=48&fontColor=00E5FF&fontAlignY=38&desc=Cybersecurity%20%2B%20Home%20Lab%20Operator&descAlignY=58&descColor=e8edf7&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=whoami;BS+Computer+Science+%40+UMT+Lahore;SIEM+%2F+Network+Security+%2F+Cloud;Seeking+a+Cybersecurity+Internship" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=whoami;BS+Computer+Science+%40+UMT+Lahore;SIEM+%2F+Network+Security+%2F+Cloud;Former+SOC+Intern+%40+Zong+(CMPak)" alt="Typing SVG" />
 
 <br/>
 
@@ -14,12 +14,12 @@
 
 <br/>
 
-```
+```text
 hunain@security:~$ whoami
 HUNAIN AMIN
 BS Computer Science student — cybersecurity focus
-Home lab: SIEM monitoring | network security | cloud infra
-Status: seeking cybersecurity internship
+Experience: Former SOC Intern @ Zong (CMPak) | firewalls & SIEM
+Home lab: Wazuh SIEM | network segmentation | cloud infra
 ```
 
 <div align="center">
@@ -30,15 +30,15 @@ Status: seeking cybersecurity internship
 
 </div>
 
-BS Computer Science student (Class of 2027) building hands-on security operations skills through a self-managed home lab — SIEM monitoring, network segmentation, and cloud infrastructure hardening. Looking for a cybersecurity internship.
+BS Computer Science student (Class of 2027) building hands-on security operations skills. Having recently completed a SOC internship at Zong (CMPak) managing firewalls and SIEM systems, I actively run a self-managed home lab focused on threat detection, network segmentation, and cloud infrastructure hardening.
 
 <br/>
 
 ## `[01_summary]` About
 
-I'm a Computer Science student at the University of Management and Technology, Lahore, focused on cybersecurity. Rather than waiting for a classroom to hand me infrastructure, I built my own: a home lab covering SIEM monitoring, network security, and cloud fundamentals.
+I'm a Computer Science student at the University of Management and Technology, Lahore. I recently worked at Zong (CMPak) headquarters, gaining hands-on enterprise experience with Security Operations Center protocols, firewall administration, and SIEM event management. 
 
-I'm comfortable across operating systems, networking, and cloud computing, with hands-on exposure to tools like Wazuh, pfSense, and AWS — and I'm currently looking for a cybersecurity internship to put those skills to work on real security operations.
+Rather than waiting for a classroom to hand me infrastructure, I also built my own: a home lab covering network security, log analysis, and cloud fundamentals. I am comfortable across operating systems, networking, and cloud computing, with active exposure to tools like Wazuh, pfSense, and AWS.
 
 <table>
 <tr>
@@ -53,7 +53,7 @@ I'm comfortable across operating systems, networking, and cloud computing, with 
 
 ## `[02_activity]` Home Lab Log
 
-```
+```text
 wazuh-siem :: alerts.log                                      ● monitoring
 
 00:00:01  INFO  Deployed AWS EC2 instance (Ubuntu Server) — SSH hardened, security groups configured.
@@ -119,7 +119,7 @@ wazuh-siem :: alerts.log                                      ● monitoring
 | **Networking** | `Cisco Packet Tracer` `VLANs` `OSPF / RIP Routing` `DHCP` `SSH Tunneling` |
 | **Cloud** | `AWS (EC2)` `Hadoop` |
 | **Languages** | `C++` `C#` `Python` `Java` `Dart` `HTML` |
-| **Frameworks** | `Flutter` `MATLAB` |
+| **Frameworks** | `Flutter` `MATLAB` `Unity` |
 
 <br/>
 
@@ -150,7 +150,7 @@ wazuh-siem :: alerts.log                                      ● monitoring
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Hunain-Amin/Hunain-Amin/output/github-contribution-grid-snake.svg">
 </picture>
 
-<sub>⚠️ this animates once the snake workflow below is set up — see note at the bottom</sub>
+<sub>⚠️ this animates once the GitHub Action snake workflow is set up to output to the "output" branch</sub>
 
 </div>
 
@@ -160,12 +160,12 @@ wazuh-siem :: alerts.log                                      ● monitoring
 
 <div align="center">
 
-Open to cybersecurity internships and opportunities in security operations. Reach out — I respond fast.
+Open to expanding my cybersecurity experience and connecting on security operations. Reach out — I respond fast.
 
 [![Email](https://img.shields.io/badge/-%24_email-00E5FF?style=for-the-badge&logo=gmail&logoColor=black)](mailto:p.hunainamin@gmail.com)
 [![GitHub](https://img.shields.io/badge/-%24_github-0e111a?style=for-the-badge&logo=github&logoColor=00E5FF)](https://github.com/Hunain-Amin)
 [![Portfolio](https://img.shields.io/badge/-%24_portfolio-0e111a?style=for-the-badge&logo=githubpages&logoColor=ff2fb0)](https://hunain-amin.github.io)
-[![LinkedIn](https://img.shields.io/badge/-%24_linkedin-0e111a?style=for-the-badge&logo=linkedin&logoColor=00E5FF)](#)
+[![LinkedIn](https://img.shields.io/badge/-%24_linkedin-0e111a?style=for-the-badge&logo=linkedin&logoColor=00E5FF)](https://linkedin.com/in/Hunain-Amin)
 
 <br/>
 
