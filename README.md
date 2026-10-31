@@ -6,114 +6,132 @@
 
 <br/>
 
+[![Open portfolio](https://img.shields.io/badge/-%24_open_portfolio-00E5FF?style=for-the-badge)](https://hunain-amin.github.io)
+[![Email](https://img.shields.io/badge/-%24_contact_email-0e111a?style=for-the-badge&logo=gmail&logoColor=00E5FF)](mailto:p.hunainamin@gmail.com)
 ![Profile Views](https://komarev.com/ghpvc/?username=Hunain-Amin&color=ff2fb0&style=for-the-badge&label=SIGNAL+RECEIVED)
 
-[![Gmail](https://img.shields.io/badge/-Gmail-0e111a?style=for-the-badge&logo=gmail&logoColor=00E5FF)](mailto:p.hunainamin@gmail.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-0e111a?style=for-the-badge&logo=githubpages&logoColor=ff2fb0)](https://hunain-amin.github.io)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e111a?style=for-the-badge&logo=linkedin&logoColor=00E5FF)](#)
-
 </div>
 
 <br/>
 
 ```
-[root@hunain-lab ~]# cat status.log
-> STATUS      : seeking cybersecurity internship
-> FOCUS       : SIEM monitoring | network security | cloud infra
-> UNIVERSITY  : UMT Lahore — BS Computer Science, expected 2027
-> UPTIME      : 100% curious, 0% patched
+hunain@security:~$ whoami
+HUNAIN AMIN
+BS Computer Science student — cybersecurity focus
+Home lab: SIEM monitoring | network security | cloud infra
+Status: seeking cybersecurity internship
+```
+
+<div align="center">
+
+**CYBERSECURITY STUDENT · HOME LAB OPERATOR**
+
+<h1>Securing systems,<br/>one <code>log line</code> at a time.</h1>
+
+</div>
+
+BS Computer Science student (Class of 2027) building hands-on security operations skills through a self-managed home lab — SIEM monitoring, network segmentation, and cloud infrastructure hardening. Looking for a cybersecurity internship.
+
+<br/>
+
+## `[01_summary]` About
+
+I'm a Computer Science student at the University of Management and Technology, Lahore, focused on cybersecurity. Rather than waiting for a classroom to hand me infrastructure, I built my own: a home lab covering SIEM monitoring, network security, and cloud fundamentals.
+
+I'm comfortable across operating systems, networking, and cloud computing, with hands-on exposure to tools like Wazuh, pfSense, and AWS — and I'm currently looking for a cybersecurity internship to put those skills to work on real security operations.
+
+<table>
+<tr>
+<td align="center"><h2>3</h2><sub>SIEM &amp; network security tools deployed</sub></td>
+<td align="center"><h2>6+</h2><sub>VLANs designed in enterprise network sim</sub></td>
+<td align="center"><h2>~427K</h2><sub>events logged by my AWS honeypot</sub></td>
+<td align="center"><h2>2027</h2><sub>expected graduation, BS Computer Science</sub></td>
+</tr>
+</table>
+
+<br/>
+
+## `[02_activity]` Home Lab Log
+
+```
+wazuh-siem :: alerts.log                                      ● monitoring
+
+00:00:01  INFO  Deployed AWS EC2 instance (Ubuntu Server) — SSH hardened, security groups configured.
+00:00:04  OK    Wazuh SIEM online — centralized log collection + file integrity monitoring active.
+00:00:07  INFO  Custom detection rules written for suspicious activity patterns.
+00:00:11  OK    pfSense virtual firewall configured — network segmentation enforced.
+00:00:14  WARN  Simulated attack behavior detected by custom alert rule — logged for review.
+00:00:18  INFO  Traffic filtering + access control policies applied across lab segments.
+00:00:22  OK    System log analysis pass complete — no unresolved anomalies.
+00:00:26  INFO  Enterprise network sim: 6+ VLANs, OSPF/RIP routing verified.
+00:00:30  INFO  Cowrie honeypot exposed on :2222 (AWS EC2) — logs shipped to Wazuh through a reverse SSH tunnel.
+00:00:34  WARN  Honeypot, 7 weeks: ~427K events, ~53K logins — 3 source IPs produced ~95% of traffic. Rules tagged with MITRE ATT&CK.
 ```
 
 <br/>
 
-## `>_` about
+## `[03_projects]` Projects
 
-BS Computer Science student focused on cybersecurity, learning by building rather than just reading about it. I run a self-managed **home lab** covering SIEM monitoring, network segmentation, and cloud infrastructure — hands-on with **Wazuh**, **pfSense**, and **AWS**. Currently looking for a cybersecurity internship to bring those skills into real security operations.
+### `Cloud / SIEM / Detection` &nbsp;Internet-Facing SSH Honeypot on AWS, Monitored by Wazuh
 
-<br/>
+- Ran a Cowrie SSH honeypot on a free-tier AWS EC2 instance for 7 weeks, with its logs analyzed in a Wazuh SIEM at home.
+- Built a reverse SSH tunnel (systemd service) to ship logs home without opening any ports on my network.
+- Wrote custom Wazuh detection rules for connections, logins and commands, tagged with MITRE ATT&CK (T1595, T1110, T1059).
 
-## `>_` home lab // active log
+<table>
+<tr>
+<td align="center"><h3>~427K</h3><sub>events logged in 7 weeks</sub></td>
+<td align="center"><h3>~53K</h3><sub>login events captured</sub></td>
+<td align="center"><h3>~95%</h3><sub>of traffic from just 3 IPs</sub></td>
+<td align="center"><h3>5</h3><sub>custom rules, MITRE-tagged</sub></td>
+</tr>
+</table>
 
-| Status | Entry |
-|:---:|---|
-| 🟢 | **AWS EC2** (Ubuntu Server) deployed — SSH hardened, security groups configured |
-| 🟢 | **Wazuh SIEM** — centralized log collection, file integrity monitoring, custom detection rules |
-| 🟢 | **pfSense** virtual firewall — network segmentation, traffic filtering, access control |
-| 🟢 | **Cowrie honeypot** on AWS EC2 — 7 weeks internet-facing, ~427K events logged, custom Wazuh rules mapped to MITRE ATT&CK |
-| 🟡 | Simulated attack behavior — analyzed via custom alert rules |
-
-<br/>
-
-## `>_` projects
-
-<div align="center">
-
-<a href="https://github.com/Hunain-Amin/cowrie-wazuh-honeypot">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=cowrie-wazuh-honeypot&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="32%"/>
-</a>
-<a href="https://github.com/Hunain-Amin/hunain-amin-770-PROJECT-MINI_OS">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=hunain-amin-770-PROJECT-MINI_OS&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="32%"/>
-</a>
-<a href="https://github.com/Hunain-Amin/Enterprise-IT-department-Network">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=Enterprise-IT-department-Network&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="32%"/>
-</a>
-
-</div>
-
-- **Cowrie + Wazuh Honeypot** — Internet-facing SSH honeypot on AWS EC2 feeding a home-lab Wazuh SIEM through a reverse SSH tunnel, with custom detection rules tagged with MITRE ATT&CK. ~427K events in 7 weeks, with 3 source IPs producing ~95% of traffic. [View repo](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)
-- **Mini Operating System** — C++ OS simulator: process management, CPU scheduler, multithreaded sync, Banker's Algorithm for deadlock avoidance, Producer-Consumer via mutex/semaphores.
-- **Enterprise IT Department Network** — Cisco Packet Tracer sim: 6+ VLANs, OSPF/RIP routing, ACLs, port security, DHCP.
+**→ [view repository](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)**
 
 <br/>
 
-## `>_` tech stack
+### `Systems / C++` &nbsp;Mini Operating System
 
-<div align="center">
+- C++ OS simulator implementing process management, a CPU scheduler, and multithreaded synchronization.
+- Banker's Algorithm for deadlock avoidance, evaluating resource requests against safe-state conditions.
+- Producer-Consumer problem solved with mutex locks and semaphores to prevent race conditions.
 
-**Security**
-<br/>
-![Wazuh](https://img.shields.io/badge/-Wazuh-00E5FF?style=flat-square&logoColor=black)
-![pfSense](https://img.shields.io/badge/-pfSense-00E5FF?style=flat-square&logoColor=black)
-![SIEM](https://img.shields.io/badge/-SIEM-00E5FF?style=flat-square&logoColor=black)
-![Cowrie](https://img.shields.io/badge/-Cowrie%20Honeypot-00E5FF?style=flat-square&logoColor=black)
-![MITRE](https://img.shields.io/badge/-MITRE%20ATT%26CK-00E5FF?style=flat-square&logoColor=black)
-![VirtualBox](https://img.shields.io/badge/-Oracle%20VirtualBox-00E5FF?style=flat-square&logo=virtualbox&logoColor=black)
-
-**Networking**
-<br/>
-![Cisco](https://img.shields.io/badge/-Cisco%20Packet%20Tracer-ff2fb0?style=flat-square&logo=cisco&logoColor=white)
-![VLAN](https://img.shields.io/badge/-VLANs-ff2fb0?style=flat-square)
-![OSPF](https://img.shields.io/badge/-OSPF%2FRIP-ff2fb0?style=flat-square)
-![SSH](https://img.shields.io/badge/-SSH%20Tunneling-ff2fb0?style=flat-square)
-
-**Cloud**
-<br/>
-![AWS](https://img.shields.io/badge/-AWS%20EC2-39ff88?style=flat-square&logo=amazonaws&logoColor=black)
-![Hadoop](https://img.shields.io/badge/-Hadoop-39ff88?style=flat-square&logo=apachehadoop&logoColor=black)
-
-**Languages & Frameworks**
-<br/>
-![C++](https://img.shields.io/badge/-C%2B%2B-e8edf7?style=flat-square&logo=cplusplus&logoColor=black)
-![C#](https://img.shields.io/badge/-C%23-e8edf7?style=flat-square&logo=csharp&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-e8edf7?style=flat-square&logo=python&logoColor=black)
-![Java](https://img.shields.io/badge/-Java-e8edf7?style=flat-square&logo=openjdk&logoColor=black)
-![Dart](https://img.shields.io/badge/-Dart-e8edf7?style=flat-square&logo=dart&logoColor=black)
-![Flutter](https://img.shields.io/badge/-Flutter-e8edf7?style=flat-square&logo=flutter&logoColor=black)
-![MATLAB](https://img.shields.io/badge/-MATLAB-e8edf7?style=flat-square&logo=mathworks&logoColor=black)
-
-</div>
+**→ [view repository](https://github.com/Hunain-Amin/hunain-amin-770-PROJECT-MINI_OS)**
 
 <br/>
 
-## `>_` credentials
+### `Networking` &nbsp;Enterprise IT Department Network
 
-- 🎓 **BS Computer Science** — University of Management and Technology (UMT), Lahore — *Expected 2027*
-- 📜 **Mastercard Cybersecurity Virtual Experience Program** — Forage
-- 📜 **Introduction to Cybersecurity** — Cisco Networking Academy
+- Multi-department enterprise network simulated in Cisco Packet Tracer — 6+ VLANs, 10–20 networked devices.
+- Static and dynamic routing (OSPF/RIP) for inter-VLAN and inter-department connectivity.
+- ACLs and port security to restrict cross-department access; DHCP for automated IP assignment.
+
+**→ [view repository](https://github.com/Hunain-Amin/Enterprise-IT-department-Network)**
 
 <br/>
 
-## `>_` github stats
+## `[04_scan_report]` Skills
+
+| Category | Tools |
+|---|---|
+| **Security** | `Wazuh` `pfSense` `SIEM` `ACLs` `Port Security` `Oracle VirtualBox` `Cowrie Honeypot` `MITRE ATT&CK` |
+| **Networking** | `Cisco Packet Tracer` `VLANs` `OSPF / RIP Routing` `DHCP` `SSH Tunneling` |
+| **Cloud** | `AWS (EC2)` `Hadoop` |
+| **Languages** | `C++` `C#` `Python` `Java` `Dart` `HTML` |
+| **Frameworks** | `Flutter` `MATLAB` |
+
+<br/>
+
+## `[05_credentials]` Education & Certifications
+
+| 🎓 Education | 📜 Certifications |
+|---|---|
+| **BS Computer Science**<br/>University of Management and Technology (UMT), Lahore<br/>*Expected 2027*<br/>Relevant coursework: Cloud Computing, Operating Systems, Computer Networks | **Mastercard Cybersecurity Virtual Experience Program**<br/>Forage<br/><br/>**Introduction to Cybersecurity**<br/>Cisco Networking Academy |
+
+<br/>
+
+## `[06_telemetry]` GitHub Stats
 
 <div align="center">
 
@@ -125,14 +143,6 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 <br/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=Hunain-Amin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4" width="80%" alt="Trophies"/>
-
-</div>
-
-<br/>
-
-## `>_` contribution graph
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hunain-Amin/Hunain-Amin/output/github-contribution-grid-snake-dark.svg">
@@ -146,10 +156,21 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 
 <br/>
 
+## `[07_connect]` Let's talk security.
+
 <div align="center">
+
+Open to cybersecurity internships and opportunities in security operations. Reach out — I respond fast.
+
+[![Email](https://img.shields.io/badge/-%24_email-00E5FF?style=for-the-badge&logo=gmail&logoColor=black)](mailto:p.hunainamin@gmail.com)
+[![GitHub](https://img.shields.io/badge/-%24_github-0e111a?style=for-the-badge&logo=github&logoColor=00E5FF)](https://github.com/Hunain-Amin)
+[![Portfolio](https://img.shields.io/badge/-%24_portfolio-0e111a?style=for-the-badge&logo=githubpages&logoColor=ff2fb0)](https://hunain-amin.github.io)
+[![LinkedIn](https://img.shields.io/badge/-%24_linkedin-0e111a?style=for-the-badge&logo=linkedin&logoColor=00E5FF)](#)
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2fb0,50:16213e,100:0e111a&height=100&section=footer" width="100%"/>
 
-`connection secure — thanks for stopping by`
+`● connection secure — built by Hunain Amin`
 
 </div>
