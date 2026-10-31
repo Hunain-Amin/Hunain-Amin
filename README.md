@@ -48,17 +48,20 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 
 <div align="center">
 
+<a href="https://github.com/Hunain-Amin/cowrie-wazuh-honeypot">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=cowrie-wazuh-honeypot&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="32%"/>
+</a>
 <a href="https://github.com/Hunain-Amin/hunain-amin-770-PROJECT-MINI_OS">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=hunain-amin-770-PROJECT-MINI_OS&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=hunain-amin-770-PROJECT-MINI_OS&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="32%"/>
 </a>
 <a href="https://github.com/Hunain-Amin/Enterprise-IT-department-Network">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=Enterprise-IT-department-Network&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="48%"/> [![](https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=cowrie-wazuh-honeypot&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536)](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hunain-Amin&repo=Enterprise-IT-department-Network&theme=dark&bg_color=0e111a&title_color=00E5FF&icon_color=ff2fb0&text_color=e8edf7&border_color=1e2536" width="32%"/>
 </a>
 
 </div>
 
+- **Cowrie + Wazuh Honeypot** — Internet-facing SSH honeypot on AWS EC2 feeding a home-lab Wazuh SIEM through a reverse SSH tunnel, with custom detection rules tagged with MITRE ATT&CK. ~427K events in 7 weeks, with 3 source IPs producing ~95% of traffic. [View repo](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)
 - **Mini Operating System** — C++ OS simulator: process management, CPU scheduler, multithreaded sync, Banker's Algorithm for deadlock avoidance, Producer-Consumer via mutex/semaphores.
-- - **Cowrie + Wazuh Honeypot** — Internet-facing SSH honeypot on AWS EC2 feeding a home-lab Wazuh SIEM through a reverse SSH tunnel, with custom detection rules tagged with MITRE ATT&CK. ~427K events in 7 weeks, with 3 source IPs producing ~95% of traffic. [View repo](https://github.com/Hunain-Amin/cowrie-wazuh-honeypot)
 - **Enterprise IT Department Network** — Cisco Packet Tracer sim: 6+ VLANs, OSPF/RIP routing, ACLs, port security, DHCP.
 
 <br/>
@@ -72,6 +75,8 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 ![Wazuh](https://img.shields.io/badge/-Wazuh-00E5FF?style=flat-square&logoColor=black)
 ![pfSense](https://img.shields.io/badge/-pfSense-00E5FF?style=flat-square&logoColor=black)
 ![SIEM](https://img.shields.io/badge/-SIEM-00E5FF?style=flat-square&logoColor=black)
+![Cowrie](https://img.shields.io/badge/-Cowrie%20Honeypot-00E5FF?style=flat-square&logoColor=black)
+![MITRE](https://img.shields.io/badge/-MITRE%20ATT%26CK-00E5FF?style=flat-square&logoColor=black)
 ![VirtualBox](https://img.shields.io/badge/-Oracle%20VirtualBox-00E5FF?style=flat-square&logo=virtualbox&logoColor=black)
 
 **Networking**
@@ -79,6 +84,7 @@ BS Computer Science student focused on cybersecurity, learning by building rathe
 ![Cisco](https://img.shields.io/badge/-Cisco%20Packet%20Tracer-ff2fb0?style=flat-square&logo=cisco&logoColor=white)
 ![VLAN](https://img.shields.io/badge/-VLANs-ff2fb0?style=flat-square)
 ![OSPF](https://img.shields.io/badge/-OSPF%2FRIP-ff2fb0?style=flat-square)
+![SSH](https://img.shields.io/badge/-SSH%20Tunneling-ff2fb0?style=flat-square)
 
 **Cloud**
 <br/>
